@@ -1,0 +1,64 @@
+<!Doctype html>
+<html>
+	<head>
+	<title>Sen Money</title>
+	<script src="scripts.js"></script>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=width" />
+    <link rel="stylesheet" href="fichier.css"/>
+	</head>
+	<body>
+        <select id='lang' name="langue" onchange="Langues()">
+            <option value="fr">Fr</option>
+            <option value="en">En</option>
+            <option value="wo">Wo</option>
+        </select>
+		<h2>Sen Money</h2>
+
+        <div id='compt'>
+        	<h5>Authentification</h5>
+
+        
+        	<label for='num' class="float">Choix du numéro</label>
+        	<select id='num' name="num" onchange="">
+        		<option value="771234567">771234567</option>
+        		<option value="761234567">761234567</option>
+                <option value="701234567">701234567</option>
+        		<option value="781234567">781234567</option>
+        		<option value="777654321">777654321</option>
+        	</select><br>
+        	<label for='code' class="float">Entrez votre code</label><input type="tel" name="code" id='code' pattern="\d+\d+\d+\d" required>
+        	<span id = "codeIncorrect"></span><br>
+        	<input type="button" value="Envoyer" id="bouton_envoi" onclick="getValue()">
+        </div>
+<br><br>
+        <div id='bton'>
+            <button onclick="mobilMoney()">#221#</button>
+        </div>
+
+        <div class="footerbas">
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-md-12 ">
+                    <div class="region region-copy">
+                        <div id="block-block-4" class="block block-block">
+
+                            <div class="content">
+                                <p class="rtejustify">©2021 ESTM - Master1 SSI</p>
+                            </div>
+                        </div>
+                        <div id="block-block-5" class="block block-block">
+
+                            <div class="content">
+                                <p>
+                                    <a href="#" target="_blank">Réalisé par Aliou Dadal KA, Clesio Bampoki Alioune Khaly Ba</a>    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	</body>
+</html>

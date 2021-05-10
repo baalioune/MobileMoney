@@ -1,0 +1,52 @@
+body{
+	text-align: center;
+	background-color: #DDD;
+	font-size: 17px;
+}
+#lang{
+	float: right;
+	margin-top: -30px;
+}
+h2{
+	font-size: 50px;
+}
+button{
+	font-size: 30px;
+}
+#bton :hover{
+      padding: 5px;
+      font-weight: bold;
+      color: #FFF;
+      background-color: green;
+}
+select{
+	margin: 5px;
+}
+#code{
+	margin: 3px;
+	padding: 5px;
+	width: 72px;
+}
+#num{
+	padding: 5px;
+}
+label{
+	display: inline-block;
+	width: 130px;
+
+}
+#bouton_envoi{
+	margin: 5px;
+	padding: 4px;
+	background-color: green;
+	color: #FFF;
+}
+.footerbas{
+	margin-top: 245px;
+	background-color: #000;
+	color: #FFF;
+	padding: 5px;
+}
+a{
+	color: #FFF;
+}
